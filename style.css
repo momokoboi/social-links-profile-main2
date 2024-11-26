@@ -81,6 +81,10 @@ section > a{
     max-width: 300px;
 }
 
+section > a:hover{
+    background-color: var(--green);
+    color: var(--grey-700);
+}
 
 footer{
     font-size: 1.2em;
