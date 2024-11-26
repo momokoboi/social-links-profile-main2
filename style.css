@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 /* colors & fonts config */
 
@@ -73,22 +73,24 @@ section > a{
     font-weight: bold;
     text-decoration: none;
     color: white;
+
     background-color: var(--grey-700);
-
-
     margin: 10px auto;
     padding: 15px 0px;
     border-radius: 10px;
-    max-width: 400px;
-    
+    max-width: 300px;
 }
 
 
-
-
-
-
+footer{
+    font-size: 1.2em;
+    background-color: var(--grey-700);
+    padding: 10px;
+    color: var(--green);
+    font-weight: 500;
+    
+}
 
 /* footer class */
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(225, 27%, 91%); }
